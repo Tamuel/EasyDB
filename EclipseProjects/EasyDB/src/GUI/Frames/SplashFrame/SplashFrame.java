@@ -1,0 +1,55 @@
+package GUI.Frames.SplashFrame;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+import GUI.Component.SimpleJFrame;
+import GUI.Frames.MainFrame.MainFrame;
+import Resource.DBProvider;
+import Resource.DimenR;
+import Resource.StringR;
+
+public class SplashFrame extends SimpleJFrame implements Runnable {
+	private DrawSplashImagePanel splashPanel;
+
+	public SplashFrame(String frameName, int width, int height) {
+		super(frameName, width, height);
+		splashPanel = new DrawSplashImagePanel(this);
+
+		setContentPane(splashPanel);
+		run();
+	}
+
+	public static void main(String args[]) {
+		SplashFrame splashFrame = new SplashFrame(
+				StringR.EASY_DB,
+				DimenR.SPLASH_FRAME_WIDTH,
+				DimenR.SPLASH_FRAME_HEIGHT
+				);
+		
+	}
+
+	@Override
+	public void run() {
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		new MainFrame(
+				StringR.EASY_DB,
+				DimenR.MAIN_FRAME_WIDTH,
+				DimenR.MAIN_FRAME_HEIGHT
+				);
+		
+        dispose();
+	}
+}

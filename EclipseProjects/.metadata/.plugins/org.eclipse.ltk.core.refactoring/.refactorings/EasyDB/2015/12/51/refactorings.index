@@ -1,0 +1,26 @@
+1450264062968	Delete elements
+1450264066859	Delete element
+1450264068599	Delete element
+1450264104019	Delete element
+1450264528580	Move compilation unit
+1450267329232	Move compilation unit
+1450267633381	Rename compilation unit 'drawSplashImagePanel.java'
+1450272035932	Rename type 'MenuPanel'
+1450274785994	Rename field 'tableListScrollPane'
+1450276170569	Copy compilation unit
+1450276490658	Rename type 'SQLoptions'
+1450279293018	Rename field 'sqlOperationLabel'
+1450360165503	Rename field 'menuPanel'
+1450365551299	Rename method 'makeSelectIcon'
+1450369546819	Copy compilation unit
+1450374869746	Copy compilation unit
+1450376800937	Rename field 'tebleAttributesLabel'
+1450407301718	Rename local variable 'wantTdoSeeAttributePanel'
+1450407645268	Copy compilation unit
+1450409806340	Rename local variable 'addCondition'
+1450420480804	Rename local variable 'addDataPanel'
+1450422032707	Rename local variable 'newTextField'
+1450433748796	Rename method 'getTableAttrubutes'
+1450433754336	Rename method 'createTable'
+1450442349694	Rename field 'columnNumber'
+1450444527004	Rename field 'tablePanel'
